@@ -20,6 +20,28 @@
     list-style: none;
 }
 
-.page-header-logo-web{
+.logo {
+    color: #212121;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.contacts-nav .link {
+    color: #212121;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
     color: #2196F3;
 }
