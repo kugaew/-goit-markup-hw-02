@@ -1,20 +1,34 @@
-/* основной цвет текста #212121; */
-/* вторичный цвет текста #757575; */
+/* ++вторичный цвет текста #212121; */
+/* ++основной цвет текста #757575; */
 /* белый #FFFFFF; */
 
-/* акцент #2196F3; */
+/* ++акцент #2196F3; */
 
-/* цвет почты и телефона в футере rgba(255, 255, 255, 0.6); */
+/* ++цвет почты и телефона в футере rgba(255, 255, 255, 0.6); */
 
 /* основной цвет фона #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 /* фон хедера #FFFFFF */
 /* фон футера #2F303A */
 
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --action-color: #2196F3;
+    --hero-title-color: #FFFFFF;
+    --hero-btn-text-color: #FFFFFF;
+    --footer-mailphone-text-color: rgba(255, 255, 255, 0.6);
+    
+    --maim-background-color: #FFFFFF;
+    --second-background-color: #F5F4FA;
+    --hero-background-color: #2F303A;
+    --footer-background-color: #2F303A;
+}
+
 
 .page {
-    color: #757575;
-    background-color: #FFFFFF;
+    color: var(--main-text-color);
+    background-color: var(--maim-background-color);
 }
 
 .list {
@@ -24,66 +38,84 @@
 /*Header*/
 
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .logo:focus {
-    color: #2196F3;
+    color: var(--action-color);
 }
 
 .logo-web {
-    color: #2196F3;
+    color: var(--action-color);
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--action-color);
 }
 
 .contacts-nav .link {
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: #2196F3;
+    color: var(--action-color);
 }
 
 /*Hero*/
-/*
+
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-background-color);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--hero-title-color);
 }
-*/
+
 
 /*Main*/
 
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
+
+/*features*/
 
 .feature-list .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
+
+/*team*/
 
 .team-list .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
+/*footer*/
 
+.footer {
+    background-color: var(--footer-background-color);
+}
 
+.footer-logo-link {
+    color: var(--hero-title-color)
+}
 
+.address-link {
+    color: var(--hero-title-color)
+}
+
+.footer-contacts-nav .link {
+    color: var(--footer-mailphone-text-color)
+}
 
 /* portfolio */
 
 .portfolio-list .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
