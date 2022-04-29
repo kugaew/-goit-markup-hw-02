@@ -11,6 +11,7 @@
 /* фон хедера #FFFFFF */
 /* фон футера #2F303A */
 
+
 .page {
     color: #757575;
     background-color: #FFFFFF;
@@ -20,8 +21,14 @@
     list-style: none;
 }
 
+/*Header*/
+
 .logo {
     color: #212121;
+}
+
+.logo:focus {
+    color: #2196F3;
 }
 
 .logo-web {
@@ -44,4 +51,39 @@
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
     color: #2196F3;
+}
+
+/*Hero*/
+/*
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+*/
+
+/*Main*/
+
+.section-title {
+    color: #212121;
+}
+
+.feature-list .title {
+    color: #212121;
+}
+
+.team-list .title {
+    color: #212121;
+}
+
+
+
+
+
+/* portfolio */
+
+.portfolio-list .title {
+    color: #212121;
 }
