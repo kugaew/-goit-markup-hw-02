@@ -123,14 +123,28 @@
 
 .section-title {
     color: var(--title-text-color);
+
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
 }
 
 /*features*/
 
 .feature-list .title {
     color: var(--title-text-color);
+
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.feature-list .text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /*Our-job*/
@@ -140,6 +154,17 @@
 
 .team-list .title {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-list .text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .section.team {
@@ -172,6 +197,8 @@
     color: var(--footer-mailphone-text-color);
 
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer-contacts-nav .address-link {
