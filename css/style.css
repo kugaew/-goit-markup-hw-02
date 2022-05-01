@@ -38,6 +38,8 @@
 
 /*Header*/
 
+/*Logo*/
+
 .logo {
     color: var(--title-text-color);
 }
@@ -49,6 +51,8 @@
 .logo-web {
     color: var(--action-color);
 }
+
+/*Navigate site*/
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -62,6 +66,8 @@
 .site-nav .link.current {
     color: var(--action-color);
 }
+
+/*Contacts*/
 
 .contacts-nav .link {
     color: var(--main-text-color);
@@ -105,19 +111,25 @@
     background-color: var(--second-background-color);
 }
 
-/*footer*/
+/*Footer*/
 
 .footer {
     background-color: var(--footer-background-color);
 }
 
+/*Logo*/
+
 .footer-logo-link {
     color: var(--hero-title-color)
 }
 
+/*Address*/
+
 .address-link {
     color: var(--hero-title-color)
 }
+
+/*footer contacts*/
 
 .footer-contacts-nav .link {
     color: var(--footer-mailphone-text-color)
@@ -128,11 +140,7 @@
     color: var(--action-color);
 }
 
-/* portfolio */
-
-.portfolio-list .title {
-    color: var(--title-text-color);
-}
+/*Button*/
 
 .button.hero {
     background-color: var(--action-color);
@@ -153,4 +161,12 @@
 .button.filter:hover {
     background-color: var(--action-color);
     color: var(--hero-btn-text-color);
+}
+
+/* portfolio page*/
+
+/*portfolio section*/
+
+.portfolio-list .title {
+    color: var(--title-text-color);
 }
