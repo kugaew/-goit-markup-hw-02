@@ -31,6 +31,8 @@
 .page {
     color: var(--main-text-color);
     background-color: var(--maim-background-color);
+
+    font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -133,7 +135,7 @@
 /*Logo*/
 
 .footer-logo {
-    color: var(--hero-title-color)
+    color: var(--hero-title-color);
 }
 
 /*.footer-logo:focus,
@@ -147,11 +149,13 @@
 /*footer contacts*/
 
 .footer-contacts-nav .link {
-    color: var(--footer-mailphone-text-color)
+    color: var(--footer-mailphone-text-color);
+
+    font-style: normal;
 }
 
 .footer-contacts-nav .address-link {
-    color: var(--hero-title-color)
+    color: var(--hero-title-color);
 }
 
 .footer-contacts-nav .link:focus,
