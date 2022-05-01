@@ -36,6 +36,10 @@
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /*Header*/
 
 /*Logo*/
@@ -87,6 +91,8 @@
 
 .hero-title {
     color: var(--hero-title-color);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -94,13 +100,18 @@
 
 .section-title {
     color: var(--title-text-color);
+    text-align: center;
 }
 
 /*features*/
 
 .feature-list .title {
     color: var(--title-text-color);
+    text-transform: uppercase;
 }
+
+/*Our-job*/
+
 
 /*team*/
 
@@ -131,9 +142,6 @@
 
 /*Address*/
 
-.address-link {
-    color: var(--hero-title-color)
-}
 
 /*footer contacts*/
 
@@ -141,14 +149,20 @@
     color: var(--footer-mailphone-text-color)
 }
 
-.footer-contacts-nav .address-link:focus,
-.footer-contacts-nav .address-link:hover,
+.footer-contacts-nav .address-link {
+    color: var(--hero-title-color)
+}
+
 .footer-contacts-nav .link:focus,
 .footer-contacts-nav .link:hover {
     color: var(--action-color);
 }
 
 /*Button*/
+
+.button {
+    cursor: pointer;
+}
 
 .button.hero {
     background-color: var(--action-color);
