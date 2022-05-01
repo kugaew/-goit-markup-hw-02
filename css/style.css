@@ -75,6 +75,9 @@
 .site-nav,
 .contacts-nav {
     letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .site-nav .link:hover,
