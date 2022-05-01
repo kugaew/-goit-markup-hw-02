@@ -44,7 +44,8 @@
     color: var(--title-text-color);
 }
 
-.logo:focus {
+.logo:focus,
+.logo:hover {
     color: var(--action-color);
 }
 
@@ -119,8 +120,13 @@
 
 /*Logo*/
 
-.footer-logo-link {
+.footer-logo {
     color: var(--hero-title-color)
+}
+
+.footer-logo:focus,
+.footer-logo:hover {
+    color: var(--action-color);
 }
 
 /*Address*/
@@ -135,6 +141,8 @@
     color: var(--footer-mailphone-text-color)
 }
 
+.footer-contacts-nav .address-link:focus,
+.footer-contacts-nav .address-link:hover,
 .footer-contacts-nav .link:focus,
 .footer-contacts-nav .link:hover {
     color: var(--action-color);
