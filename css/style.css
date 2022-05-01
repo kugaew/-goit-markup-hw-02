@@ -33,6 +33,7 @@
     background-color: var(--maim-background-color);
 
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list {
@@ -49,6 +50,11 @@
 
 .logo {
     color: var(--title-text-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 /*.logo:focus,
@@ -64,6 +70,11 @@
 
 .site-nav .link {
     color: var(--title-text-color);
+}
+
+.site-nav,
+.contacts-nav {
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -94,8 +105,10 @@
 
 .hero-title {
     color: var(--hero-title-color);
+
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
 
@@ -196,4 +209,6 @@
 
 .portfolio-list .title {
     color: var(--title-text-color);
+
+    letter-spacing: 0.06em;
 }
