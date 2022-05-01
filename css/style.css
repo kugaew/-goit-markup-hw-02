@@ -17,6 +17,7 @@
     --action-color: #2196F3;
     --hero-title-color: #FFFFFF;
     --hero-btn-text-color: #FFFFFF;
+    --hero-btn-bcg-color-action: #188CE8;
     --footer-mailphone-text-color: rgba(255, 255, 255, 0.6);
     
     --maim-background-color: #FFFFFF;
@@ -58,6 +59,10 @@
     color: var(--action-color);
 }
 
+.site-nav .link.current {
+    color: var(--action-color);
+}
+
 .contacts-nav .link {
     color: var(--main-text-color);
 }
@@ -96,6 +101,10 @@
     color: var(--title-text-color);
 }
 
+.section.team {
+    background-color: var(--second-background-color);
+}
+
 /*footer*/
 
 .footer {
@@ -128,6 +137,11 @@
 .button.hero {
     background-color: var(--action-color);
     color: var(--hero-btn-text-color);
+}
+
+.button.hero:focus,
+.button.hero:hover {
+    background-color: var(--hero-btn-bcg-color-action);
 }
 
 .button.filter {
