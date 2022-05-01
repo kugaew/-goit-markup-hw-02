@@ -112,6 +112,10 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
 }
 
 
@@ -183,11 +187,18 @@
 
 .button {
     cursor: pointer;
+
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
 }
 
 .button.hero {
     background-color: var(--action-color);
     color: var(--hero-btn-text-color);
+
+    letter-spacing: 0.06em;
+    line-height: 1.88;
 }
 
 .button.hero:focus,
@@ -198,6 +209,9 @@
 .button.filter {
     background-color: var(--second-background-color);
     color: var(--title-text-color);
+
+    letter-spacing: 0.03em;
+    line-height: 1.62;
 }
 
 .button.filter:focus,
