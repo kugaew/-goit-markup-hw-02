@@ -114,8 +114,29 @@
     color: var(--footer-mailphone-text-color)
 }
 
+.footer-contacts-nav .link:focus,
+.footer-contacts-nav .link:hover {
+    color: var(--action-color);
+}
+
 /* portfolio */
 
 .portfolio-list .title {
     color: var(--title-text-color);
+}
+
+.button.hero {
+    background-color: var(--action-color);
+    color: var(--hero-btn-text-color);
+}
+
+.button.filter {
+    background-color: var(--second-background-color);
+    color: var(--title-text-color);
+}
+
+.button.filter:focus,
+.button.filter:hover {
+    background-color: var(--action-color);
+    color: var(--hero-btn-text-color);
 }
